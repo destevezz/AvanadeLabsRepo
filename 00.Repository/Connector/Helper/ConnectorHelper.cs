@@ -68,42 +68,42 @@ namespace Connector.Helper
             return GetService(user, password, url);
         }
 
-        public IOrganizationService GetServiceRolDesarrollo()
-        {
-            string user = Properties.Settings.Default.UserDevTest;
-            string password = Properties.Settings.Default.UserDevPassword;
-            string url = Properties.Settings.Default.URLDev;
+        //public IOrganizationService GetServiceRolDesarrollo()
+        //{
+        //    //string user = Properties.Settings.Default.UserDevTest;
+        //    //string password = Properties.Settings.Default.UserDevPassword;
+        //    //string url = Properties.Settings.Default.URLDev;
 
-            return GetService(user, password, url);
-        }
+        //    return GetService(user, password, url);
+        //}
 
-        public IOrganizationService GetServiceRolPre()
-        {
+        //public IOrganizationService GetServiceRolPre()
+        //{
 
-            string user = Properties.Settings.Default.UserPreTest;
-            string password = Properties.Settings.Default.UserPrePassword;
-            string url = Properties.Settings.Default.URLPre;
+        //    //string user = Properties.Settings.Default.UserPreTest;
+        //    //string password = Properties.Settings.Default.UserPrePassword;
+        //    //string url = Properties.Settings.Default.URLPre;
 
-            return GetService(user, password, url);
-        }
+        //    return GetService(user, password, url);
+        //}
 
-        public IOrganizationService GetServiceRolUAT()
-        {
+        //public IOrganizationService GetServiceRolUAT()
+        //{
 
-            string user = Properties.Settings.Default.UserUatTest;
-            string password = Properties.Settings.Default.UserUatPassword;
-            string url = Properties.Settings.Default.URLUat;
+        //    //string user = Properties.Settings.Default.UserUatTest;
+        //    //string password = Properties.Settings.Default.UserUatPassword;
+        //    //string url = Properties.Settings.Default.URLUat;
 
-            return GetService(user, password, url);
-        }
+        //    return GetService(user, password, url);
+        //}
 
-        public IOrganizationService GetServiceRolPro()
-        {
-            string user = Properties.Settings.Default.UserProTest;
-            string password = Properties.Settings.Default.UserProPassword;
-            string url = Properties.Settings.Default.URLPro;
+        //public IOrganizationService GetServiceRolPro()
+        //{
+        //    //string user = Properties.Settings.Default.UserProTest;
+        //    //string password = Properties.Settings.Default.UserProPassword;
+        //    //string url = Properties.Settings.Default.URLPro;
 
-            return GetService(user, password, url);
-        }
+        //    return GetService(user, password, url);
+        //}
     }
 }
